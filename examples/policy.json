@@ -1,0 +1,12 @@
+{
+  "pcrs": {
+    "0": "<sha384 hex of the enclave image>",
+    "1": "<sha384 hex of the kernel and bootstrap>",
+    "2": "<sha384 hex of the application>",
+    "8": "<sha384 hex of the signing certificate, optional>"
+  },
+  "max_age_secs": 300,
+  "max_future_skew_secs": 300,
+  "require_nonce": true,
+  "require_public_key": true
+}
